@@ -11,7 +11,7 @@ import TrafficFlow from './components/trafficFlow';
 
 function fontsActive () {
   ReactDOM.render(
-    <TrafficFlow />,
+    <TrafficFlow src="" interval=1000 maxReplayOffset=43200 />,
     document.getElementById('traffic')
   );
 }
